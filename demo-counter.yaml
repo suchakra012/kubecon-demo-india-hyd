@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: demo-counter
+  name: demo-counter
+  namespace: demo-kubecon
+spec:
+  containers:
+  - image: sumanpf9/democounter:1.0
+    name: demo-counter
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}

@@ -84,6 +84,7 @@ crit show checkpoint/pstree.img #Inspect the process on the container
 ```bash
 sh restore-pod-checkpoint.sh
 kubectl apply -f demo-restore-counter.yaml
+curl <Pod_IP>:8088  #Check if the pod is restored from the same state
 ``` 
 
   

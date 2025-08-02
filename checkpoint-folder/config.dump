@@ -1,0 +1,12 @@
+{
+  "id": "74832218a5e797fb133cabcf7612c19b33560d8e15f4fe4831e11896c5d02a56",
+  "name": "k8s_demo-counter_demo-counter_demo-kubecon_c7de0c17-8f2e-44a8-83f5-97df53419796_0",
+  "rootfsImage": "6a2a853a7e76f879e042e380c4cc6586c1731baacb39a6583a5ecbe90aa90903",
+  "rootfsImageRef": "6a2a853a7e76f879e042e380c4cc6586c1731baacb39a6583a5ecbe90aa90903",
+  "rootfsImageName": "docker.io/sumanpf9/democounter:1.0",
+  "runtime": "crun",
+  "createdTime": "2025-08-02T03:31:23.844769Z",
+  "checkpointedTime": "2025-08-02T03:32:51.393424113Z",
+  "restoredTime": "0001-01-01T00:00:00Z",
+  "restored": false
+}

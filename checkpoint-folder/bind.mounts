@@ -1,0 +1,32 @@
+[
+  {
+    "source": "/run/containers/storage/overlay-containers/4c3c3f5f7276daf2e713b4539d1097dfae4dca287ab44bd4a95316222b94f2fa/userdata/resolv.conf",
+    "destination": "/etc/resolv.conf",
+    "file_type": "file",
+    "permissions": 420
+  },
+  {
+    "source": "/run/containers/storage/overlay-containers/4c3c3f5f7276daf2e713b4539d1097dfae4dca287ab44bd4a95316222b94f2fa/userdata/hostname",
+    "destination": "/etc/hostname",
+    "file_type": "file",
+    "permissions": 420
+  },
+  {
+    "source": "/var/lib/kubelet/pods/c7de0c17-8f2e-44a8-83f5-97df53419796/etc-hosts",
+    "destination": "/etc/hosts",
+    "file_type": "file",
+    "permissions": 420
+  },
+  {
+    "source": "/var/lib/kubelet/pods/c7de0c17-8f2e-44a8-83f5-97df53419796/containers/demo-counter/12ad952e",
+    "destination": "/dev/termination-log",
+    "file_type": "file",
+    "permissions": 438
+  },
+  {
+    "source": "/var/lib/kubelet/pods/c7de0c17-8f2e-44a8-83f5-97df53419796/volumes/kubernetes.io~projected/kube-api-access-kbvl4",
+    "destination": "/var/run/secrets/kubernetes.io/serviceaccount",
+    "file_type": "directory",
+    "permissions": 511
+  }
+]
