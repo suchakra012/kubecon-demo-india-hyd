@@ -1,7 +1,7 @@
 # kubecon-demo-india-hyd
 Demo presented on Forensic Container Checkpointing with CRI-U
 
-# 🛠️ Pre-requisites
+# 🛠️ Pre-requisites checklist
 
 To use this project, ensure your Kubernetes environment meets the following configuration and runtime requirements.
 
